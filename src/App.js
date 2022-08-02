@@ -14,7 +14,11 @@ function App() {
 				<h4>using React and Redux</h4>
 
 				<div className='quantity'>
-					<a className='quantity__minus' title='Decrement'>
+					<a
+						className='quantity__minus'
+						title='Decrement'
+						onClick={() => dispatch(decNumber())}
+					>
 						<span>-</span>
 					</a>
 					<input
