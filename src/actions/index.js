@@ -1,9 +1,9 @@
-const incNumber = () => {
+export const incNumber = () => {
 	return {
 		type: 'INCREMENT',
 	}
 }
-const decNumber = () => {
+export const decNumber = () => {
 	return {
 		type: 'DECREMENT',
 	}
